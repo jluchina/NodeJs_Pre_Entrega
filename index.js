@@ -29,7 +29,8 @@ if (argumentos[0] == "GET" && argumentos[1] == "products") {
     eliminarProducto(argumentos[1])
     
 } else {
-    console.log("El comando ingresado es erroneo.")
+    console.log("El comando ingresado es erroneo ó no ha ingresado parametros.") 
+    console.log("Modo de uso: POST products 'titulo' 'precio' 'categoria'  ó  GET products ó GET products/id ó DELETE products/id")
 }
 
 
